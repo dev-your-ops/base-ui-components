@@ -1,0 +1,9 @@
+name: Prism
+entry: PrismCard.vue
+doc: Desc.vue
+
+dependencies:
+  'vue-prism-component': '^1.2.0'
+
+middleware: import 'prismjs';
+  import 'prismjs/themes/prism.css';
