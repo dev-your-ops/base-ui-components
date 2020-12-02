@@ -17,6 +17,8 @@
 
 <script>
 import Prism from 'vue-prism-component';
+import 'prismjs';
+import 'prismjs/themes/prism.css';
 
 export default {
   name: 'PrismCard',
