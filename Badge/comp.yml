@@ -1,7 +1,0 @@
-name: Badge
-entry: Badge.vue
-doc: Desc.vue
-
-dependencies:
-
-middleware:

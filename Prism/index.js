@@ -1,5 +1,5 @@
-import Vue from 'vue';
-
 import PrismCard from './PrismCard';
 
-Vue.component('PrismCard', PrismCard);
+export default (Vue) => {
+  Vue.component('Prism', PrismCard);
+};

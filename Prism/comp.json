@@ -1,0 +1,4 @@
+{
+  "name": "Prism",
+  "npm_dependencies": {"vue-prism-component": "^1.2.0"}
+}

@@ -1,61 +1,45 @@
 <template>
   <div>
-    <PrismCard class="mt-3" code="<Button>Default button</Button>">
+    <Prism class="mt-3" code="<Button>Default button</Button>">
       <Button>Default button</Button>
-    </PrismCard>
+    </Prism>
 
-    <PrismCard
-      class="mt-3"
-      code="<Button color='primary'>Primary button</Button>"
-    >
+    <Prism class="mt-3" code="<Button color='primary'>Primary button</Button>">
       <Button color="primary">Primary button</Button>
-    </PrismCard>
+    </Prism>
 
-    <PrismCard
+    <Prism
       class="mt-3"
       code="<Button color='secondary'>Secondary button</Button>"
     >
       <Button color="secondary">Secondary button</Button>
-    </PrismCard>
+    </Prism>
 
-    <PrismCard
-      class="mt-3"
-      code="<Button color='success'>Success button</Button>"
-    >
+    <Prism class="mt-3" code="<Button color='success'>Success button</Button>">
       <Button color="success">Success button</Button>
-    </PrismCard>
+    </Prism>
 
-    <PrismCard
-      class="mt-3"
-      code="<Button color='danger'>Danger button</Button>"
-    >
+    <Prism class="mt-3" code="<Button color='danger'>Danger button</Button>">
       <Button color="danger">Danger button</Button>
-    </PrismCard>
+    </Prism>
 
-    <PrismCard
-      class="mt-3"
-      code="<Button color='warning'>Warning button</Button>"
-    >
+    <Prism class="mt-3" code="<Button color='warning'>Warning button</Button>">
       <Button color="warning">Warning button</Button>
-    </PrismCard>
+    </Prism>
 
-    <PrismCard
+    <Prism
       class="mt-3"
       code="<Button color='primary' :loading='true'>Primary button</Button>"
     >
-      <Button color="primary" :loading="true">
-        Primary button
-      </Button>
-    </PrismCard>
+      <Button color="primary" :loading="true"> Primary button </Button>
+    </Prism>
 
-    <PrismCard
+    <Prism
       class="mt-3"
       code="<Button color='#1ca1e3' fontColor='#ffffff'>Custom button</Button>"
     >
-      <Button color="#1ca1e3" fontColor="#ffffff">
-        Custom button
-      </Button>
-    </PrismCard>
+      <Button color="#1ca1e3" fontColor="#ffffff"> Custom button </Button>
+    </Prism>
   </div>
 </template>
 

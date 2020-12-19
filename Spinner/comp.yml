@@ -1,7 +1,0 @@
-name: Spinner
-entry: Spinner.vue
-doc: Desc.vue
-
-dependencies:
-
-middleware:

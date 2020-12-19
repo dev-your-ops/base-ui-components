@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PrismCard title="Types" class="mt-3" :code="type">
+    <Prism title="Types" class="mt-3" :code="type">
       <div class="flex items-center flex-wrap">
         <Spinner type="square" />
         <Spinner type="squares" class="ml-3" />
@@ -10,23 +10,23 @@
         <Spinner type="bar" class="ml-3" />
         <Spinner type="dots" class="ml-3" />
       </div>
-    </PrismCard>
-    <PrismCard title="Colors" class="mt-3" :code="color">
+    </Prism>
+    <Prism title="Colors" class="mt-3" :code="color">
       <div class="flex items-center flex-wrap">
         <Spinner type="dot-circle" color="red" />
         <Spinner type="dot-circle" color="blue" class="ml-3" />
         <Spinner type="dot-circle" color="#f1af1e" class="ml-3" />
         <Spinner type="dot-circle" color="#51ac1e" class="ml-3" />
       </div>
-    </PrismCard>
-    <PrismCard title="Size" class="mt-3" :code="size">
+    </Prism>
+    <Prism title="Size" class="mt-3" :code="size">
       <div class="flex items-center flex-wrap">
         <Spinner type="dot-circle" :size="30" />
         <Spinner type="dot-circle" :size="50" class="ml-3" />
         <Spinner type="dot-circle" :size="75" class="ml-3" />
         <Spinner type="dot-circle" :size="100" class="ml-3" />
       </div>
-    </PrismCard>
+    </Prism>
   </div>
 </template>
 

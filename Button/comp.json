@@ -1,0 +1,4 @@
+{
+  "name": "Button",
+  "vcm_dependencies": ["Spinner"]
+}

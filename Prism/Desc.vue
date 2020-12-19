@@ -1,10 +1,10 @@
 <template>
   <div>
-    <PrismCard class="mt-3 custom-prism" title="Prism Card" :code="prismCode">
-      <PrismCard title="button" code="<Button>Default button</Button>">
+    <Prism class="mt-3 custom-prism" title="Prism Card" :code="prismCode">
+      <Prism title="button" code="<Button>Default button</Button>">
         <Button>Default button</Button>
-      </PrismCard>
-    </PrismCard>
+      </Prism>
+    </Prism>
   </div>
 </template>
 

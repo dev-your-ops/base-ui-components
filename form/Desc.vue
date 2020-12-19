@@ -1,12 +1,12 @@
 <template>
   <div>
-    <PrismCard class="mt-3" :code="code">
+    <Prism class="mt-3" :code="code">
       <Form @submit="handleSubmit">
         <Input label="test" name="test" />
         <Input name="test-no-label" class="mt-2 w-full" :required="true" />
         <Button type="submit" color="primary" class="mt-2">Envoyer</Button>
       </Form>
-    </PrismCard>
+    </Prism>
   </div>
 </template>
 

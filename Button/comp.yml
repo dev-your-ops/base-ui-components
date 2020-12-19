@@ -1,7 +1,0 @@
-name: Button
-entry: Button.vue
-doc: Desc.vue
-
-dependencies:
-
-middleware:
