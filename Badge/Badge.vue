@@ -27,7 +27,7 @@ export default {
         case 'danger':
           return 'bg-red-500 text-red-100';
         case 'warning':
-          return 'bg-orange-500 text-orange-100';
+          return 'bg-yellow-500 text-yellow-100';
         case 'default':
           return 'bg-gray-300 text-gray-600';
         default:

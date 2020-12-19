@@ -41,7 +41,7 @@ export default {
         case 'danger':
           return 'bg-red-300';
         case 'warning':
-          return 'bg-orange-300';
+          return 'bg-yellow-300';
         case 'default':
           return 'bg-gray-500';
         default:
@@ -59,7 +59,7 @@ export default {
         case 'danger':
           return 'bg-red-500 hover:bg-red-600 text-white';
         case 'warning':
-          return 'bg-orange-500 hover:bg-orange-600 text-white';
+          return 'bg-yellow-500 hover:bg-yellow-600 text-white';
         case 'default':
           return 'bg-gray-300 hover:bg-gray-400 text-gray-700';
         default:
