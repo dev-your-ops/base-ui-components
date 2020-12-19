@@ -1,4 +1,4 @@
-import Modal from './Form';
+import Modal from './Modal';
 
 export default (Vue) => {
   Vue.component('Modal', Modal);
